@@ -43,7 +43,7 @@ export const Home = ({ setPokemonData }) => {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:"#aba89c"}}>
       <Navbar pokemonFilter={pokemonFilter} />
       <Container maxWidth={false}>
         <Grid container spacing={3}>
