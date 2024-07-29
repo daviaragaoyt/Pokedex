@@ -62,9 +62,7 @@ export default function Navbar({ pokemonFilter, hideSerach }) {
                 : "pointer"
             }} onClick={() => navigate("/")}
             />
-            < Typography>
-              POKEDEX
-            </Typography>
+            
             {!hideSerach && (<Search onChange={(e) => pokemonFilter(e.target.value)}>
               <SearchIconWrapper>
                 <SearchIcon />
